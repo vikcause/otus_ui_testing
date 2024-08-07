@@ -166,10 +166,10 @@ class AdminPage(WORKWITHPAGE):
         """method for scroll page to bottom"""
 
         self.browser.execute_script(
-           "window.scrollTo(0, 700);")
+           "window.scrollTo(0, 600);")
 
     def scroll_up(self):
         """method for scroll page up"""
 
         self.browser.execute_script(
-            "window.scrollTo(1900, 0);")
+            "window.scrollTo(2000, 0);")
