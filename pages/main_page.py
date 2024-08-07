@@ -22,12 +22,12 @@ class MainPage(WORKWITHPAGE):
         """method for scroll page to bottom"""
 
         self.browser.execute_script(
-           "window.scrollTo(0, 1600);")
+           "window.scrollTo(0, 1050);")
 
     def scroll_up(self):
         """method for scroll page up"""
 
-        self.browser.execute_script("window.scrollTo(1600, 0);")
+        self.browser.execute_script("window.scrollTo(1900, 0);")
 
     def add_product_to_cart(self):
         """method to add item to cart"""
